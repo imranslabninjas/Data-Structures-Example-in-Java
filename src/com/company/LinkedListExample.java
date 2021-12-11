@@ -6,14 +6,7 @@ public class LinkedListExample {
 
     public static void main(String[] args)
     {
-        LinkedList<String> planetList = new LinkedList<>();
-        planetList.add("Mercury");
-        planetList.add("Venus");
-        planetList.add("Earth");
-        planetList.add("Mars");
-        planetList.add("Jupiter");
-        planetList.add("Saturn");
-        planetList.add("Neptune");
+        LinkedList<String> planetList = DoubleLinkedListExample.getStrings();
 
         System.out.println("Printing all elements of the linked list");
         System.out.println(planetList);

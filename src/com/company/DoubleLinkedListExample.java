@@ -6,6 +6,12 @@ public class DoubleLinkedListExample {
 
     public static void main(String[] args) {
         // Test new branch
+        LinkedList<String> doubleLinkedListExample = getStrings();
+
+        System.out.println(doubleLinkedListExample);
+    }
+
+    static LinkedList<String> getStrings() {
         LinkedList<String> doubleLinkedListExample = new LinkedList<>();
 
         doubleLinkedListExample.add("Mercury");
@@ -16,7 +22,6 @@ public class DoubleLinkedListExample {
         doubleLinkedListExample.add("Saturn");
         doubleLinkedListExample.add("Neptune");
         doubleLinkedListExample.add("Pluto");
-
-        System.out.println(doubleLinkedListExample);
+        return doubleLinkedListExample;
     }
 }
