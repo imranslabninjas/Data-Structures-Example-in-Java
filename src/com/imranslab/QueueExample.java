@@ -21,13 +21,13 @@ public class QueueExample {
         System.out.println("Elements of queue " + queue);
 
         // To remove the head of queue.
-        int removedElement = queue.remove();
+        Integer removedElement = queue.remove();
         System.out.println("removed element" + removedElement);
 
         System.out.println(queue);
 
         // To view the head of queue
-        int head = queue.peek();
+        Integer head = queue.peek();
         System.out.println("head of queue " + head);
 
         /*
@@ -36,7 +36,7 @@ public class QueueExample {
          can be used with this
          implementation.
         */
-        int size = queue.size();
+        Integer size = queue.size();
         System.out.println("Size of queue " + size);
     }
 }
