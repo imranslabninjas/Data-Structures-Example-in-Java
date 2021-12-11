@@ -7,11 +7,15 @@ public class QueueExample {
 
     public static void main(String[] args)
     {
+        /*
+        * The Queue interface present in the java.util package and extends the Collection
+        * Interface is used to hold the elements about to be processed in FIFO.
+        * */
+
         Queue<Integer> queue = new LinkedList<>();
 
         /*
-         Adds elements {0, 1, 2, 3, 4} to
-         the queue
+         Adds elements {0, 1, 2, 3, 4} to the queue
         */
 
         for (int i = 0; i < 5; i++)
@@ -36,6 +40,7 @@ public class QueueExample {
          can be used with this
          implementation.
         */
+
         Integer size = queue.size();
         System.out.println("Size of queue " + size);
     }
