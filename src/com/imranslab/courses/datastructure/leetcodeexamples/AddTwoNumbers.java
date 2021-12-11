@@ -18,20 +18,37 @@ public class AddTwoNumbers
         Integer[] list_2 = new Integer[]{4, 6, 5};
 
         // Reverse Ordered Linked List
-        LinkedList list1 = getLinkedListReverseOrderedFromIntegerArray(list_1);
-        LinkedList list2 = getLinkedListReverseOrderedFromIntegerArray(list_2);
+        LinkedList<Integer> list1 = getLinkedListReverseOrderedFromIntegerArray(list_1);
+        LinkedList<Integer> list2 = getLinkedListReverseOrderedFromIntegerArray(list_2);
 
         System.out.println(list1);
         System.out.println(list2);
+
+        // Putting the List back in order
+        LinkedList<Integer> list_1_reversed = reverseLinkedList(list1);
+        LinkedList<Integer> list_2_reversed = reverseLinkedList(list2);
+
+        // Print Reverse ordered List
+        System.out.println(list_1_reversed);
+        System.out.println(list_2_reversed);
     }
 
     // Reverse the list in a linked list data structure
     private static LinkedList<Integer> getLinkedListReverseOrderedFromIntegerArray(Integer[] number)
     {
         LinkedList<Integer> list = new LinkedList<>();
-        for (int i = 0; i<number.length; i++)
+        for (Integer integer : number) {
+            list.addFirst(integer);
+        }
+        return list;
+    }
+
+    private static LinkedList<Integer> reverseLinkedList(LinkedList<Integer> givenList)
+    {
+        LinkedList<Integer> list = new LinkedList<>();
+        while(givenList.size()!=0)
         {
-            list.addFirst(number[i]);
+            list.addFirst(givenList.pollLast());
         }
         return list;
     }
