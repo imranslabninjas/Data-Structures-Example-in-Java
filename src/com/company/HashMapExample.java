@@ -1,4 +1,4 @@
-package com.company;// Java program to illustrate HashMap class of java.util
+package com.company;
 
 import java.util.HashMap;
 
