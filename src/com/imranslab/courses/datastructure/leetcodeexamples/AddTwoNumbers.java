@@ -24,7 +24,7 @@ public class AddTwoNumbers
         System.out.println(list1);
         System.out.println(list2);
 
-        // Putting the List back in order
+        // Put the List back in order
         LinkedList<Integer> list_1_reversed = reverseLinkedList(list1);
         LinkedList<Integer> list_2_reversed = reverseLinkedList(list2);
 
