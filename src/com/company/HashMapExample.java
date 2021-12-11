@@ -1,6 +1,5 @@
 package com.company;// Java program to illustrate HashMap class of java.util
 
-// Importing HashMap class
 import java.util.HashMap;
 
 public class HashMapExample {
@@ -18,8 +17,7 @@ public class HashMapExample {
         map.put("Neptune", 700);
         map.put("Pluto", 800);
 
-        System.out.println("Size of map is:- "
-                + map.size());
+        System.out.println("Size of map is" + map.size());
 
         System.out.println(map);
 
@@ -27,8 +25,7 @@ public class HashMapExample {
 
             Integer a = map.get("Earth");
 
-            System.out.println("value for key"
-                    + " \"Earth\" is:" + a);
+            System.out.println("value for key" + " \"Earth\" is:" + a);
         }
     }
 }
