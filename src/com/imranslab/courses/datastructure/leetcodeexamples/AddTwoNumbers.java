@@ -7,5 +7,27 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 * https://leetcode.com/problems/add-two-numbers/
 * */
 
-public class AddTwoNumbers {
+import java.util.LinkedList;
+
+public class AddTwoNumbers
+{
+    public static void main(String[] args)
+    {
+        Integer[] list_1 = new Integer[]{3, 4, 2};
+        Integer[] list_2 = new Integer[]{4, 6, 5};
+
+        LinkedList list1 = getLinkedListReverseOrderedFromIntegerArray(list_1);
+        LinkedList list2 = getLinkedListReverseOrderedFromIntegerArray(list_2);
+
+        System.out.println(list1);
+        System.out.println(list2);
+
+
+
+    }
+
+    private static LinkedList<Integer> getLinkedListReverseOrderedFromIntegerArray(Integer[] number)
+    {
+        return null;
+    }
 }
