@@ -31,6 +31,21 @@ public class AddTwoNumbers
         // Print Reverse ordered List
         System.out.println(list_1_reversed);
         System.out.println(list_2_reversed);
+
+        // Convert reversed ordered list to Integer
+        Integer x = intFromReversedList(list_1_reversed);
+        Integer y = intFromReversedList(list_2_reversed);
+
+        // Print Integer Values
+        System.out.println(x);
+        System.out.println(y);
+
+        // Add both Integers using integer addition
+        Integer result = x + y;
+        System.out.println(result);
+
+        // Convert the result to reversed linked list
+
     }
 
     // Reverse the list in a linked list data structure
@@ -53,8 +68,14 @@ public class AddTwoNumbers
         return list;
     }
 
-    private static int intFromReversedList(LinkedList<Integer> givenList)
+    private static Integer intFromReversedList(LinkedList<Integer> givenList)
     {
-        return 1;
+        String temporary="";
+        while(givenList.size()!=0)
+        {
+            temporary = temporary + givenList.pollFirst();
+        }
+
+        return Integer.valueOf(temporary);
     }
 }
