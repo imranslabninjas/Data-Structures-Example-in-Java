@@ -21,13 +21,15 @@ public class AddTwoNumbers
 
         System.out.println(list1);
         System.out.println(list2);
-
-
-
     }
 
     private static LinkedList<Integer> getLinkedListReverseOrderedFromIntegerArray(Integer[] number)
     {
-        return null;
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 0; i<number.length; i++)
+        {
+            list.addLast(number[i]);
+        }
+        return list;
     }
 }
