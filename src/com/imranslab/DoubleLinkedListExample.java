@@ -1,4 +1,4 @@
-package com.company;
+package com.imranslab;
 
 import java.util.LinkedList;
 
@@ -6,13 +6,12 @@ public class DoubleLinkedListExample {
 
     public static void main(String[] args) {
         // Test new branch
-        // Test Comment
-        LinkedList<String> doubleLinkedListExample = getStrings();
+        LinkedList<String> doubleLinkedListExample = populateLikedList();
 
         System.out.println(doubleLinkedListExample);
     }
 
-    static LinkedList<String> getStrings() {
+    static LinkedList<String> populateLikedList() {
         LinkedList<String> doubleLinkedListExample = new LinkedList<>();
 
         doubleLinkedListExample.add("Mercury");

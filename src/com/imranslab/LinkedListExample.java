@@ -1,4 +1,4 @@
-package com.company;
+package com.imranslab;
 
 import java.util.LinkedList;
 
@@ -6,7 +6,7 @@ public class LinkedListExample {
 
     public static void main(String[] args)
     {
-        LinkedList<String> planetList = DoubleLinkedListExample.getStrings();
+        LinkedList<String> planetList = DoubleLinkedListExample.populateLikedList();
 
         System.out.println("Printing all elements of the linked list");
         System.out.println(planetList);
