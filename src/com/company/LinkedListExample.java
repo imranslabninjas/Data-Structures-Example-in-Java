@@ -23,7 +23,7 @@ public class LinkedListExample {
         System.out.println(planetList.pollLast());
 
         // Bangla Comment to be added
-        System.out.println("Polling the first element of the linked list");
+        System.out.println("Polling the first element of the linked list:");
         System.out.println(planetList.pollFirst());
 
         // Bangla Comment to be added
