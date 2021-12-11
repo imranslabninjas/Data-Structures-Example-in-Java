@@ -9,8 +9,11 @@ public class QueueExample {
     {
         Queue<Integer> queue = new LinkedList<>();
 
-        // Adds elements {0, 1, 2, 3, 4} to
-        // the queue
+        /*
+         Adds elements {0, 1, 2, 3, 4} to
+         the queue
+        */
+
         for (int i = 0; i < 5; i++)
             queue.add(i);
 
@@ -27,10 +30,12 @@ public class QueueExample {
         int head = queue.peek();
         System.out.println("head of queue " + head);
 
-        // Rest all methods of collection
-        // interface like size and contains
-        // can be used with this
-        // implementation.
+        /*
+         Rest all methods of collection
+         interface like size and contains
+         can be used with this
+         implementation.
+        */
         int size = queue.size();
         System.out.println("Size of queue " + size);
     }
