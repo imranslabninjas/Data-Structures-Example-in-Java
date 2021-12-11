@@ -1,4 +1,4 @@
-package com.imranslab;
+package com.imranslab.courses.datastructure.examples;
 
 import java.util.*;
 
@@ -42,7 +42,6 @@ public class StackExample
         else
             System.out.println("Element is found at position: " + pos);
     }
-
 
     public static void main (String[] args)
     {

@@ -1,4 +1,4 @@
-package com.imranslab;// Java program to demonstrate a Queue
+package com.imranslab.courses.datastructure.examples;// Java program to demonstrate a Queue
 
 import java.util.LinkedList;
 import java.util.Queue;

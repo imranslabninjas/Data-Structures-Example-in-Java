@@ -1,4 +1,4 @@
-package com.imranslab;
+package com.imranslab.courses.datastructure.examples;
 
 import java.util.LinkedList;
 
