@@ -52,4 +52,9 @@ public class AddTwoNumbers
         }
         return list;
     }
+
+    private static int intFromReversedList(LinkedList<Integer> givenList)
+    {
+        return 1;
+    }
 }
