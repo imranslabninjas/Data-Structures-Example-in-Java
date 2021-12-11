@@ -18,27 +18,27 @@ public class LinkedListExample {
         System.out.println("Printing all elements of the linked list");
         System.out.println(planetList);
 
-        // Bangla Comment to be added
+        // last element poll kora
         System.out.println("Polling the last element of the linked list");
         System.out.println(planetList.pollLast());
 
-        // Bangla Comment to be added
+        // first element poll kora
         System.out.println("Polling the first element of the linked list:");
         System.out.println(planetList.pollFirst());
 
-        // Bangla Comment to be added
+        // shesh element ta dekha
         System.out.println("Take a look at the new last element of the linked list");
         System.out.println(planetList.peekLast());
 
-        // Bangla Comment to be added
+        // new element shurute add kora
         System.out.println("Add a new element to te linked list in the front");
         System.out.println(planetList.offerFirst("Planet X"));
 
-        // Bangla Comment to be added
+        // new element sheshe add kora
         System.out.println("Add a new element to te linked list in the last");
         System.out.println(planetList.offerLast("Pluto"));
 
-        // Bangla Comment to be added
+        // Linked list abar print kora
         System.out.println("Print the modified Linked list");
         System.out.println(planetList);
     }
