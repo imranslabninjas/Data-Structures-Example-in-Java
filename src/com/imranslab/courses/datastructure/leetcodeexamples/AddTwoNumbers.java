@@ -13,9 +13,11 @@ public class AddTwoNumbers
 {
     public static void main(String[] args)
     {
+        // Inorder Integer List
         Integer[] list_1 = new Integer[]{3, 4, 2};
         Integer[] list_2 = new Integer[]{4, 6, 5};
 
+        // Reverse Ordered Linked List
         LinkedList list1 = getLinkedListReverseOrderedFromIntegerArray(list_1);
         LinkedList list2 = getLinkedListReverseOrderedFromIntegerArray(list_2);
 
@@ -23,12 +25,13 @@ public class AddTwoNumbers
         System.out.println(list2);
     }
 
+    // Reverse the list in a linked list data structure
     private static LinkedList<Integer> getLinkedListReverseOrderedFromIntegerArray(Integer[] number)
     {
         LinkedList<Integer> list = new LinkedList<>();
         for (int i = 0; i<number.length; i++)
         {
-            list.addLast(number[i]);
+            list.addFirst(number[i]);
         }
         return list;
     }
